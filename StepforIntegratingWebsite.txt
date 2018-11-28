@@ -1,0 +1,23 @@
+Trade Site Document :
+
+Folder name : trade_site.
+
+Follow the below steps to integrate this site
+
+Open the belwo file from root folder 
+
+filename: /trade_site/clients/context.php
+
+1. If you have any subdomain then add the subdomain name instead of ~itfhrmco (/yourdomain/trade_site/clients)otherwise remove the ~itfhrmco (/trade_site/clients) through out the context.php file.
+
+2. Import the itfhrmco_iegfx_site.sql file into the live database. (sql file is available in the root folder)
+
+2. For database connection , include your database details in  dbAction function.
+  (e.g) 
+        $servername = "localhost";
+	$dbname 	= "yourdatabase";
+	$username 	= "yourusermae";
+	$password 	= "youpassword";
+
+
+3. Run your Site URL in the browser.
